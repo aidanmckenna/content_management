@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Review Tracks</title>
+</head>
+<body>
+</body>
+</html>
+
+
+<h1>Hi, {{ user.username }}!</h1>
+        {% for post in posts %}
+        <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+        {% endfor %}

@@ -1,0 +1,51 @@
+
+ContentItemMetadata:
+  type: object
+  properties:
+    id:
+      type: string
+    title:
+      type: string
+    description:
+      type: string
+    category:
+      type: string
+    last_updated:
+      type: string
+    public_access_level:
+      type: string
+    licence:
+      type: string
+    author:
+      type: string
+    contact_email:
+      type: string
+    row_count:
+      type: number
+    apiEndpoint:
+      type: string
+    geographic_unit:
+      type: string
+    dowloadUrl:
+      type: string
+    tags:
+      type: array
+      items:
+        type: string
+    link:
+      type: string
+    related_documents:
+      type: array
+      items:
+        type: string
+
+  required:
+    - id
+    - title
+    - category
+
+
+FileMetadata:
+  type: object
+  properties:
+    
